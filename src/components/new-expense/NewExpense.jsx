@@ -13,7 +13,7 @@ const NewExpense = ({ onAddNewExpense }) => {
 	const closeFormHandler = () => setIsFormShow(false)
 
 	return (
-		<div style={{ background: '#AD9BE9', padding: '20px' }}>
+		<div className='new-expense'>
 			{isFormShow ? (
 				<ExpenseForm
 					onAddNewExpense={onAddNewExpense}
