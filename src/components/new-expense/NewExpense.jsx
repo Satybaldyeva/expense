@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from '../UI/button/Button'
 import ExpenseForm from './ExpenseForm'
+import './NewExpense.css'
 
 // hook == function
 
